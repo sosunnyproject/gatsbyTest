@@ -1,0 +1,11 @@
+/* You’ll notice that the file name ends 
+with .module.css. 
+
+This is how you tell Gatsby that this CSS file 
+should be processed as a CSS module 
+rather than plain CSS. */
+
+.container {
+    margin: 3rem auto;
+    max-width: 600px;
+  }
