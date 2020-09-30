@@ -1,18 +1,21 @@
 import React from "react"
-import  { Link } from "gatsby"
 import Header from "../components/header"
+import Container from "../components/container"
 
 
 export default function Home() {
   return (
-  <>
-  <Header>Welcome</Header>
-  <Link to="/about/">   <Header text="about" /> </Link>
-  <Link to="/portfolio/"><Header text="portfolio" /> </Link>
-  <Link to="/blog/"><Header text="blog" /> </Link>
-  <Link to="/vitae/"><Header text="vitae" /></Link>
-  <img src="../images/sosunny_logo.png" alt="logo" width="100%" />
+  <Container>
+    <Header />
+    <h1>hope you have so sunny day</h1>
+    <p>Once upon a time there was a sassy girl who loved gallery hoppings, . 
+    Walking through mountains of <em>life decisions</em>, valleys of <em>crisis</em>, and rivers of <em>changes</em>,
+    she found some gems in the land of software engineering. 
+    But at the same time, she knew her path started with her love of theatre and arts. 
+    Then she started combining media and technology through VR and AR. 
+    Now she is exploring the endless world of creative coding.
+    </p>
 
-  </>
+  </Container>
   )
 }

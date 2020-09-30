@@ -1,16 +1,15 @@
 import React from "react"
 import Header from "../components/header"
-import  { Link } from "gatsby"
+import Container from "../components/container"
 
 export default function Portfolio() {
   return (
-  <>
-  <Link to="/">Home</Link>
-  <Header text="Portfolio" />
-  <h2>VR AR</h2>
-  <h2>Exhibition</h2>
-  <h2>Hackathon</h2>
+  <Container>
+    <Header />
+    <h2>VR AR</h2>
+    <h2>Exhibition</h2>
+    <h2>Hackathon</h2>
 
-  </>
+  </Container>
   )
 }

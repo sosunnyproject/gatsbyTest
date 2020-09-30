@@ -1,16 +1,16 @@
 import React from "react"
 import Header from "../components/header"
-import  { Link } from "gatsby"
+import Container from "../components/container"
 
 export default function Vitae() {
   return (
-  <>
-  <Link to="/">Home</Link>
-  <Header text="Vitae" />
-  <h2>resume</h2>
-  <h2>career</h2>
-  <h2>education</h2>
+  <Container>
+    <Header />
 
-  </>
+    <h2>resume</h2>
+    <h2>career</h2>
+    <h2>education</h2>
+
+  </Container>
   )
 }
