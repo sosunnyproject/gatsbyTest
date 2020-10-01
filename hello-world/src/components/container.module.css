@@ -28,10 +28,11 @@ p {
   font-family: "open-sans"
 }
 
-p  a:link {
+p a:link {
   text-decoration: underline wavy;
   color: #F26D6D;
 }
+
 p a:visited{
   color: #F26D6D;
 }

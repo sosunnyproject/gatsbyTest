@@ -2,8 +2,9 @@ import React from "react"
 import Header from "../components/header"
 import Container from "../components/container"
 import  { Link } from "gatsby"
+import { graphql } from "gatsby"
 
-export default function Home() {
+export default function Home({ data }) {
   return (
   <Container>
     <Header />
@@ -17,6 +18,44 @@ export default function Home() {
     Now she is exploring the endless world of <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding</a>.
     </p>
 
+    <hr />
+
+    <div>
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.id}>
+            <h3>
+              {node.frontmatter.title}{" "} — {node.frontmatter.date}
+            </h3>
+            <p>{node.excerpt}</p>
+          </div>
+        ))}
+    </div>
   </Container>
   )
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(limit: 10) {
+      totalCount
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 50)
+          timeToRead
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            category
+          }
+          parent {
+            ... on File {
+              relativePath
+            }
+          }
+        }
+      }
+    }
+  }
+`
