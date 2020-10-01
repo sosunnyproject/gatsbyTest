@@ -8,3 +8,30 @@ rather than plain CSS. */
 .container {
     margin: 1rem 1rem;
   }
+
+h1{
+  font-family: "merienda";
+  color: #A65D8C;
+}
+
+h2 {
+  font-family: "montserrat";
+  color: #58498C;
+}
+
+h3 {
+  font-family: "montserrat";
+  color:#2A2859
+}
+
+p {
+  font-family: "open-sans"
+}
+
+p  a:link {
+  text-decoration: underline wavy;
+  color: #F26D6D;
+}
+p a:visited{
+  color: #F26D6D;
+}
