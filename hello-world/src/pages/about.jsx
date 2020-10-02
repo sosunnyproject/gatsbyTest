@@ -7,7 +7,7 @@ export default function About({ data }) {
   return (
   <Container>
     <Header />
-    <h1> About { data.site.siteMetadata.title }</h1>
+    <h1> Hello </h1>
     <h2>intro</h2>
     <h2>interests</h2>
     <h2>account</h2>

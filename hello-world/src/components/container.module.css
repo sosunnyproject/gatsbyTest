@@ -6,33 +6,40 @@ should be processed as a CSS module
 rather than plain CSS. */
 
 .container {
-    margin: 1rem 1rem;
-  }
+  margin: 1rem 1rem;
+}
 
 h1{
   font-family: "merienda";
-  color: #A65D8C;
+  color: rgb(0, 102, 153);
 }
 
 h2 {
   font-family: "montserrat";
-  color: #58498C;
+  color: rgb(255,128,0);
 }
 
 h3 {
   font-family: "montserrat";
-  color:#2A2859
+  color: rgb(0, 102, 153);
 }
 
 p {
-  font-family: "open-sans"
+  font-family: "open-sans";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.innerLayout {
+  margin: 0 10rem;
 }
 
 p a:link {
   text-decoration: underline wavy;
-  color: #F26D6D;
+  color: rgb(255,128,0);
 }
 
 p a:visited{
-  color: #F26D6D;
+  color: rgb(255,128,0);
 }
+

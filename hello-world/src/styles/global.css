@@ -1,3 +1,10 @@
 html {
     background-color: white;
 }
+
+#index p{
+    font-size: 18px;
+    line-height: 28px;
+    color: gray;
+    font-family: "montserrat";
+}

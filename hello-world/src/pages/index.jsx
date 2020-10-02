@@ -1,61 +1,54 @@
 import React from "react"
 import Header from "../components/header"
 import Container from "../components/container"
-import  { Link } from "gatsby"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
+import '../styles/global.css';
 
 export default function Home({ data }) {
   return (
-  <Container>
+  <Container >
     <Header />
-    <h1>hope you have so sunny day</h1>
-    <p>Once upon a time there was a sassy girl who loved musical theaters and dreamed broadway. 
-    Walking through mountains of <em>life decisions</em>, valleys of <em>crisis</em>, and rivers of <em>changes</em>,
-    she unexpectedly found some gems in the land of <Link to="/blog">software engineering.</Link> </p>
+    <div id='index'>
+    <h1>Developer, Artist</h1>
+
+    {/* <p>I <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">make visual artworks</a> with creative coding tools like p5js, ml5js, processing, kinect, arduino, leap motion, and etc. 
+      Since 2015, I dabbled into VR, AR, mixed media, and programming in the attempt of combining art/media and technology. 
+      This summer, I had a group exhibition with Interactive Art Lab colleagues in Seoul.</p>
+      
+    <p>Currently, I am working as a full-time frontend web developer at OTA compnay 
+      that aims digital disruption in travel industry, heavily using React framework.</p> */}
+
+    {/* <p>
+    🎭 musical theaters, live events, art performances <br />
+    🗽🍎 <a target="_blank" href="https://www.vassar.edu/" rel="noreferrer">vassar college theatre media studies </a> & new york city <br />
+    ⛰️🌪️🌊 endless journey of finding myself <br />
+    💻💎 software engineering, web developer <br />
+    🎨 art + tech, creative coding, creative technologist<br />
+    </p> */}
+
     <p>
-    But at the same time, she knew her path started with her love of art galleries and live events. 
-    She started <Link to="/portfolio">combining media and technology</Link> through VR and AR. 
-    Now she is exploring the endless world of <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding</a>.
+    Once upon a time, there was a sassy girl <br />
+    who loved musical theaters 🎭 so much <br />
+    that she flew to Broadway, New York 🗽🍎
     </p>
-
-    <hr />
-
-    <div>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <h3>
-              {node.frontmatter.title}{" "} — {node.frontmatter.date}
-            </h3>
-            <p>{node.excerpt}</p>
-          </div>
-        ))}
+    <p>
+    Walking through ⛰️ of <em>life decisions</em>,   <br />
+    🌪️ of <em>crisis</em>, 🌊 of <em>changes</em>, <br />
+    she unexpectedly found some gems 💎 <br /> 
+    in the land of <Link to="/blog">software engineering 💻</Link> 
+    </p>
+    <p>
+    But at the same time, <br />
+    she knew her path started with <br /> 
+    her love of 🎨 galleries and live events 🎪
+    </p>
+    <p>
+    She started <Link to="/portfolio">combining media and technology</Link> <br />
+    through VR, AR, mixed media, what not. <br />
+    Now she is exploring the endless world of <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding</a>
+    </p>
+  
     </div>
   </Container>
   )
 }
-
-export const query = graphql`
-  query {
-    allMarkdownRemark(limit: 10) {
-      totalCount
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 50)
-          timeToRead
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            category
-          }
-          parent {
-            ... on File {
-              relativePath
-            }
-          }
-        }
-      }
-    }
-  }
-`

@@ -15,8 +15,8 @@
   align-items: center;
 }
 .logoText{
-  font-size: 24px;
-  color: #fecb56;  /* 254, 203, 86 */
+  font-size: 18px;
+  color:rgb(255,128,0);
   text-decoration: none;
 }
 .logos img{
@@ -25,20 +25,20 @@
 
 .navContainer {
   padding-bottom: 10px;
-  border-bottom: 1px solid lightgray;
+  /* border-bottom: 1px solid lightgray; */
   font-family: "montserrat";
 
 }
 
 .navText{
-  font-size: 24px;
+  font-size: 18px;
   color: gray;
   margin-right: 0.5rem;
   text-decoration: none;
 }
 
 .navContainer [aria-current] {
-    box-shadow: 0 -6px rgba(122, 102, 41, 0.5) inset;  /* #7A6629 */
+    box-shadow: 0 -6px rgba(0, 102, 153, 0.5) inset;  /* #7A6629 */
 }
 
 /*
