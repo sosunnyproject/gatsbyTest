@@ -3,8 +3,19 @@ html {
 }
 
 #index p{
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     color: gray;
-    font-family: "montserrat";
+    font-family: "open sans";
+}
+
+#indexBottom {
+    margin-top: 100px;
+    text-align: right;
+}
+
+.highlightSpan {
+   display: inline-block;
+   font-size: 20px;
+   font-family: "Rock Salt", cursive;
 }

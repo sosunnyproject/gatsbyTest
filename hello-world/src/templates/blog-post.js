@@ -13,7 +13,7 @@ export default function BlogPost({ data }) {
   return (
     <Container>
       <Header />
-      <h1>{post.frontmatter.title}</h1>
+      <h2>{post.frontmatter.title}</h2>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Container>
   )

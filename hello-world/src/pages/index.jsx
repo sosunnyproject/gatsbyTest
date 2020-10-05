@@ -3,13 +3,16 @@ import Header from "../components/header"
 import Container from "../components/container"
 import { Link, graphql } from "gatsby"
 import '../styles/global.css';
+import logo from "../images/sosunny_logo.png"
+import "typeface-open-sans"
 
 export default function Home({ data }) {
   return (
   <Container >
     <Header />
     <div id='index'>
-    <h1>Developer, Artist</h1>
+    <h1>Developer, Artist
+    </h1>
 
     {/* <p>I <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">make visual artworks</a> with creative coding tools like p5js, ml5js, processing, kinect, arduino, leap motion, and etc. 
       Since 2015, I dabbled into VR, AR, mixed media, and programming in the attempt of combining art/media and technology. 
@@ -48,6 +51,12 @@ export default function Home({ data }) {
     Now she is exploring the endless world of <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding</a>
     </p>
   
+    <div id="indexBottom">
+    <p>Recently, watched <span class="highlightSpan">Enola Holmes</span></p>
+    <p>read <span class="highlightSpan">뉴턴의 아뜰리에</span></p>
+    <p>bought <span class="highlightSpan">Massage gun</span></p>
+    </div>
+
     </div>
   </Container>
   )

@@ -25,11 +25,14 @@
     "gatsby-transformer-remark": "^2.8.37",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "typeface-lato": "0.0.75",
     "typeface-merienda": "0.0.71",
     "typeface-montserrat": "0.0.75",
     "typeface-open-sans": "0.0.75",
     "typeface-quicksand": "^1.1.4",
-    "typeface-roboto": "0.0.75"
+    "typeface-raleway": "0.0.75",
+    "typeface-roboto": "0.0.75",
+    "typeface-rock-salt": "0.0.72"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^17.0.0-rc.2",

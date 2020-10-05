@@ -10,22 +10,28 @@ rather than plain CSS. */
 }
 
 h1{
-  font-family: "merienda";
+  font-family: 'Rock Salt', cursive;
   color: rgb(0, 102, 153);
+  font-size: 30px;
+  font-weight: 800;
 }
 
 h2 {
-  font-family: "montserrat";
+  font-family: 'open sans';
   color: rgb(255,128,0);
+  font-size: 24px;
+  font-weight: 800;
 }
 
 h3 {
-  font-family: "montserrat";
+  font-family: 'open sans';
   color: rgb(0, 102, 153);
+  font-size: 20px;
+  font-weight: 800;
 }
 
 p {
-  font-family: "open-sans";
+  font-family: "open sans";
   font-size: 14px;
   line-height: 24px;
 }
