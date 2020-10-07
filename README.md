@@ -13,7 +13,10 @@ setting up gatsby blog
   - [ ] AR hololens mit media lab hackathon
   - [ ] nyu itp camp showcase
   - [ ] jeju hackathon meerkat app - 1st place
+  - [ ] modulabs dlc
   - [ ] zero1ne 
+  - [ ] ial exhibition 1
+  - [ ] ial exhibition 2
 ---------------------------------------
 - [ ] 블로그 컨텐츠 가져오기 (구 블로그에서) - 일주일에 최소 7개
 - [ ] p5js로 홈페이지 모션그래픽 추가하기
