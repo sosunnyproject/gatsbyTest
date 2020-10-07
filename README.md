@@ -17,6 +17,7 @@ setting up gatsby blog
   - [ ] zero1ne 
   - [ ] ial exhibition 1
   - [ ] ial exhibition 2
+  - [ ] modulabs 풀잎스쿨 p5js natureofcode
 ---------------------------------------
 - [ ] 블로그 컨텐츠 가져오기 (구 블로그에서) - 일주일에 최소 7개
 - [ ] p5js로 홈페이지 모션그래픽 추가하기
