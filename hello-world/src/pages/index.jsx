@@ -11,8 +11,7 @@ export default function Home({ data }) {
   <Container >
     <Header />
     <div id='index'>
-    <h1>Developer, Artist
-    </h1>
+    <h1>Write Code, Make Art</h1>
 
     {/* <p>I <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">make visual artworks</a> with creative coding tools like p5js, ml5js, processing, kinect, arduino, leap motion, and etc. 
       Since 2015, I dabbled into VR, AR, mixed media, and programming in the attempt of combining art/media and technology. 
