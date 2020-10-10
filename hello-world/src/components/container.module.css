@@ -6,30 +6,32 @@ should be processed as a CSS module
 rather than plain CSS. */
 
 .container {
-  margin: 1rem 1rem;
+  margin: 1em 1em;
 }
 
 h1{
-  font-family: 'Rock Salt', cursive;
-  color: rgb(0, 102, 153);
-  font-size: 30px;
+  font-family: 'raleway';
+  color: rgb(255,128,0); /* rgb(0, 102, 153); */
+  font-size: 1.2em;
   font-weight: 800;
 }
 
 h2 {
-  font-family: 'open sans';
+  font-family: 'raleway';
   color: rgb(255,128,0);
-  font-size: 24px;
+  font-size: 2.4em;
   font-weight: 800;
 }
 
 h3 {
-  font-family: 'open sans';
-  color: rgb(0, 102, 153);
-  font-size: 20px;
+  font-family: 'raleway';
+  color: rgb(255,128,0);
+  font-size: 2.0em;
   font-weight: 800;
 }
-
+h4{
+  font-family: 'raleway';
+}
 p {
   font-family: "open sans";
   font-size: 14px;
@@ -37,7 +39,7 @@ p {
 }
 
 .innerLayout {
-  margin: 0 10rem;
+  margin: 0 1.0em;
 }
 
 p a:link {

@@ -5,57 +5,34 @@ import { Link, graphql } from "gatsby"
 import '../styles/global.css';
 import logo from "../images/sosunny_logo.png"
 import "typeface-open-sans"
+import "typeface-raleway"
+import "typeface-merienda"
+import "typeface-montserrat"
+import "typeface-roboto"
+import "typeface-bungee-shade"
+import "typeface-bangers"
 
 export default function Home({ data }) {
   return (
   <Container >
     <Header />
+
     <div id='index'>
-    <h1>Developer, Artist
-    </h1>
-
-    {/* <p>I <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">make visual artworks</a> with creative coding tools like p5js, ml5js, processing, kinect, arduino, leap motion, and etc. 
-      Since 2015, I dabbled into VR, AR, mixed media, and programming in the attempt of combining art/media and technology. 
-      This summer, I had a group exhibition with Interactive Art Lab colleagues in Seoul.</p>
-      
-    <p>Currently, I am working as a full-time frontend web developer at OTA compnay 
-      that aims digital disruption in travel industry, heavily using React framework.</p> */}
-
-    {/* <p>
-    🎭 musical theaters, live events, art performances <br />
-    🗽🍎 <a target="_blank" href="https://www.vassar.edu/" rel="noreferrer">vassar college theatre media studies </a> & new york city <br />
-    ⛰️🌪️🌊 endless journey of finding myself <br />
-    💻💎 software engineering, web developer <br />
-    🎨 art + tech, creative coding, creative technologist<br />
-    </p> */}
+    <h1>FrontEnd Dev & Artist & soon-to-be Creative Technologist </h1>
 
     <p>
-    Once upon a time, there was a sassy girl <br />
-    who loved musical theaters 🎭 so much <br />
-    that she flew to Broadway, New York 🗽🍎
+    a sassy girl loved musical theaters so much she ✈️ to Broadway & Vassar College 🗽
+    Walking through life ⛰️ decisions 🌪️ crisis 🌊 changes, she found some 💎 
+    in the land of <Link to="/blog">software engineering </Link> 💻 
+    Yet, as she still loves 🎨 🎭 she started <Link to="/portfolio"> combining media and technology </Link> 
+    through VR AR, mixed media, and <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding. </a>
+     Currently in Seoul, she is a full-time web dev during the day and creative coder at night.
     </p>
-    <p>
-    Walking through ⛰️ of <em>life decisions</em>,   <br />
-    🌪️ of <em>crisis</em>, 🌊 of <em>changes</em>, <br />
-    she unexpectedly found some gems 💎 <br /> 
-    in the land of <Link to="/blog">software engineering 💻</Link> 
-    </p>
-    <p>
-    But at the same time, <br />
-    she knew her path started with <br /> 
-    her love of 🎨 galleries and live events 🎪
-    </p>
-    <p>
-    She started <Link to="/portfolio">combining media and technology</Link> <br />
-    through VR, AR, mixed media, what not. <br />
-    Now she is exploring the endless world of <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding</a>
-    </p>
-  
-    <div id="indexBottom">
-    <p>Recently, watched <span class="highlightSpan">Enola Holmes</span></p>
-    <p>read <span class="highlightSpan">뉴턴의 아뜰리에</span></p>
-    <p>bought <span class="highlightSpan">Massage gun</span></p>
-    </div>
+
+    <p id="indexBottom">
+      Recently watched <span class="highlightSpan">Enola Holmes </span>, 
+    read <span class="highlightSpan">뉴턴의 아뜰리에 </span>
+    , bought <span class="highlightSpan">Massage gun</span></p>
 
     </div>
   </Container>

@@ -25,6 +25,8 @@
     "gatsby-transformer-remark": "^2.8.37",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "typeface-bangers": "0.0.72",
+    "typeface-bungee-shade": "0.0.71",
     "typeface-lato": "0.0.75",
     "typeface-merienda": "0.0.71",
     "typeface-montserrat": "0.0.75",
