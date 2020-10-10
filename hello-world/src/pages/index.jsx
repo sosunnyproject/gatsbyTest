@@ -18,13 +18,13 @@ export default function Home({ data }) {
     <Header />
 
     <div id='index'>
-    <h1>FrontEnd Dev & Artist & soon-to-be Creative Technologist </h1>
+    <h1>Write Code, Make Art</h1>
 
     <p>
-    a sassy girl loved musical theaters so much she ✈️ to Broadway & Vassar College 🗽
-    Walking through life ⛰️ decisions 🌪️ crisis 🌊 changes, she found some 💎 
+    a sassy girl loved musical theaters so much she ✈️ to New York Broadway & Vassar 🗽
+    When life was giving her 🍋🍋🍋, she found some 💎 
     in the land of <Link to="/blog">software engineering </Link> 💻 
-    Yet, as she still loves 🎨 🎭 she started <Link to="/portfolio"> combining media and technology </Link> 
+    Yet, as she loved and still loves 🎨 🎭 she started <Link to="/portfolio"> combining media and technology </Link> 
     through VR AR, mixed media, and <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sosunnyproject">creative coding. </a>
      Currently in Seoul, she is a full-time web dev during the day and creative coder at night.
     </p>
