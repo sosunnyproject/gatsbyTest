@@ -2,6 +2,7 @@ import React from "react"
 import Container from "../components/container"
 import { graphql } from "gatsby"
 import Header from "../components/header"
+import containerStyles from "../components/container.module.css"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -13,8 +14,10 @@ export default function BlogPost({ data }) {
   return (
     <Container>
       <Header />
-      <h2>{post.frontmatter.title}</h2>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className={containerStyles.postWrapper}>
+        <h2>{post.frontmatter.title}</h2>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
     </Container>
   )
 }

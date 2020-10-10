@@ -1,10 +1,7 @@
 ---
-layout: post
-categories: creativecoding
 title: "2020 인터렉티브 아트랩 전시 후기"
-date: 2020-07-14T14:01:27-05:00
-last_modified_at: 2020-08-02T14:01:27-05:00
-share: false
+date: "2020-08-10"
+category: "blog"
 ---
 
 # 2020년 여름, 성수동에서 미디어 아트 전시를 마치고...
